@@ -1,0 +1,10 @@
+.content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(calc(20% + 75px), 1fr));
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
